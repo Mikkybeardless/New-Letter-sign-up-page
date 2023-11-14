@@ -1,0 +1,156 @@
+
+
+:root{
+    ---Dark-Slate-Grey: hsl(234, 29%, 20%);
+    ---Charcoal-Grey: hsl(235, 18%, 26%);
+    ---Grey: hsl(231, 7%, 60%);
+    ---White: hsl(0, 0%, 100%);
+    ---Tomato: hsl(4, 100%, 67%);
+}
+
+body{
+    background-color: var(---Charcoal-Grey);
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    font-size: 50px;
+    color: var(---Dark-Slate-Grey);
+}
+ul{
+    list-style-image: url(./assets/images/icon-list.svg);
+    margin: 30px 23px;
+    padding: 0px;
+    gap: 10px;
+
+}
+li{
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+p,
+li {
+    font-size: 16px;
+    color: var(---Charcoal-Grey);
+}
+
+label{
+    color: var(---Dark-Slate-Grey);
+    font-weight: bold;
+    
+}
+
+/* main content styles */
+
+.big-img{
+    border-radius: 0;
+
+}
+
+.main-box{
+    display: flex;
+    background-color: var(---White);
+    border-radius: 1em;
+    gap: 30px;
+    height: 500px;
+    padding: 20px;
+    margin: 4em auto 2em;
+   
+    width: fit-content;
+}
+.text-box{
+    box-sizing: border-box;
+    padding: 8px 10px;
+    padding-top: 0px;
+    width: 360px;
+    gap: 20px;
+}
+.btn{
+    background-color: var(---Dark-Slate-Grey);
+    border-style: none;
+    border-radius: 5px;
+    color: var(---White);
+    padding: 10px;
+    margin-top: 20px;
+    width: 330px;
+ 
+}
+
+.btn-submit{
+    margin-top: 10px;
+}
+
+ .btn:hover, .btn:active {
+    background-color: var(---Tomato);
+    cursor: pointer;
+}
+
+input{
+   
+    border-radius: 5px;
+    border: 1px solid var(---Grey);
+    margin-top: 7px;
+    padding: 10px;
+    width: 305px;
+    cursor: pointer;
+}
+
+input:focus{
+    border: 1px solid var(---Grey);
+}
+
+
+.error-message{
+    margin-left: 100px;
+    color: var(---Tomato);
+}
+
+.error-box{
+    background-color: rgb(245, 215, 220);
+    border: 1px solid var(---Tomato);
+    color: var(---Tomato);
+}
+
+/* appreciation section styles */
+
+ .t-img {
+     width: 40px;
+     height: 40px;
+     margin-bottom: 0;
+ }
+
+ .gotten-email {
+     color: var(---Dark-Slate-Grey);
+     font-weight: bold;
+ }
+
+ .text {
+     margin-bottom: 15px;
+ }
+
+ .message-box {
+     background-color: var(---White);
+     width: 20em;
+     height: 23rem;
+     margin: 8em auto;
+     border-radius: 1em;
+     padding: 30px 40px 45px;
+    }
+/* hidding syle */
+#appreciation{
+    display: none;
+}
+
+
+
+/* footer styles */
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: var(---White);
+ }
+
